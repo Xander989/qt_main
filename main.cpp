@@ -7,5 +7,9 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
+
+    template<typename T>
+    void swap(T& x, T& y) {}
+
     return a.exec();
 }
